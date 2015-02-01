@@ -1,6 +1,6 @@
 # AudioSampler-SELECTOR
-An embedded linux system that plays back audio samples for musical performance.
-<p><b> DEMO VIDEO: http://youtu.be/HCk0tZvfr2Q </b></p>
+An embedded linux system that plays back audio samples for musical performance. <br>
+<b> DEMO VIDEO: http://youtu.be/HCk0tZvfr2Q </b>
 <p>
 ![src](https://cloud.githubusercontent.com/assets/6580936/5993839/f4e5005e-aa22-11e4-8f59-cc5c4a219c3c.png)
 ![src](https://cloud.githubusercontent.com/assets/6580936/5993842/04b23fb0-aa23-11e4-9174-6af6ca01a9b5.png)
