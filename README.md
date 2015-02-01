@@ -1,6 +1,6 @@
 # AudioSampler-SELECTOR
 
-An embedded linux system that plays back audio samples for musical performance. This prototype is the first milestone of development for a multi-layered audio sample based musical instrument. This project involved embedded linux developemnt, analog circuit design, pcb layout, and lots of soldering/drilling/constructing. The model pictured was specifically made for the band of Peter Matthew Bauer, and taken on a national tour. (it never broke!)
+An embedded linux system that plays back audio samples for musical performance. This prototype is the first milestone of development for a multi-layered audio sample based musical instrument. This project involved embedded linux developemnt, analog circuit design, pcb layout, and lots of soldering/drilling/constructing. The model pictured was specifically made for the band of <a href="http://petermatthewbauer.com/" target="_blank">Peter Matthew Bauer</a>, and taken on a national tour. (it never broke!)
 
 <p>The development board used was a Texas Instruments (TI) Beagle Bone Black based on an AM335x 1GHz ARM® Cortex-A8 processer. For high-quality audio, a TI PCM5102A DAC was used. The program leveraged the c++ library: JUCE and Linux sound server: JACK.</p>
 <b> DEMO VIDEO: http://youtu.be/HCk0tZvfr2Q </b><br>
