@@ -44,8 +44,6 @@ Rockers::onButtonEvent( GIOChannel *channel,
 	                                         &error );
 
 	cerr << "rc:" << rc << "  data:" << buf[0] << endl;
-
-	// thank you, call again!
     return 1;
 
 }

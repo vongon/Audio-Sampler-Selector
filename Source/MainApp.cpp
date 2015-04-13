@@ -33,17 +33,12 @@ void MainApp::initialise(const String& commandLine) {
 	cout << "initialise status: " << status << endl;
     m_adm->addAudioCallback(&m_asp);
     m_asp.setSource(&m_sas);
-    //Rkrs = new Rockers(); //initializes rockers, must be called after SYNTHs have been initialized
-
-    //All MIDI is handeled by JACK now, so this shouldn't be needed?
     StringArray midiDeviceList = MidiInput::getDevices();
     int midiDeviceIdx = MidiInput::getDefaultDeviceIndex();
     String midiDeviceName = midiDeviceList[midiDeviceIdx];
     m_adm->setMidiInputEnabled(midiDeviceName, true);
     m_adm->addMidiInputCallback(midiDeviceName, &m_sas.midiCollector);
-
     sys = system("jack_connect QX49:midi/playback_1 Juce-Midi-Input:midi/capture_1 &");
-    //sys = system("jack_connect 12Step:midi/playback_1 Juce-Midi-Input:midi/capture_1 &");
     if(AppConfig_PrintDiagnosticInfo) Print_ADM_State();
 }
 
