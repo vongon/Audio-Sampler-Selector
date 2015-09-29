@@ -1,4 +1,4 @@
-# AudioSampler-SELECTOR
+# AudioSampler-Selector
 
 An embedded linux system that plays back audio samples for musical performance. This prototype is the first milestone of development for a multi-layered audio sample based musical instrument. This project involves embedded linux development, analog circuit design, pcb layout, and lots of soldering/drilling/constructing. The model pictured was specifically made for the band of <a href="http://petermatthewbauer.com/" target="_blank">Peter Matthew Bauer</a>, and taken on a national tour. (it never broke!)
 
