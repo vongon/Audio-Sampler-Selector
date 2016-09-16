@@ -1,6 +1,19 @@
 # AudioSampler-Selector
 
-An embedded linux system that plays back audio samples for musical performance. This prototype is the first milestone of development for a multi-layered audio sample based musical instrument. This project involves embedded linux development, analog circuit design, pcb layout, and lots of soldering/drilling/constructing. The model pictured was specifically made for the band of <a href="http://petermatthewbauer.com/" target="_blank">Peter Matthew Bauer</a>, and taken on a national tour. (it never broke!)
+   _____      __          __
+  / ___/___  / /__  _____/ /_____  _____
+  \__ \/ _ \/ / _ \/ ___/ __/ __ \/ ___/
+ ___/ /  __/ /  __/ /__/ /_/ /_/ / /
+/____/\___/_/\___/\___/\__/\____/_/
+
+
+An embedded Linux system that plays back audio samples for musical performance. 
+
+This prototype is the first milestone of development for a multi-layered audio sample based musical instrument. 
+
+The project incorporates embedded Linux development, analog circuit design, pcb layout, and lots of soldering/drilling/constructing. 
+
+The prototype shown in the photos here was built for <a href="http://theeMattoliver.com">Matt Oliver</a> to operate during a national tour with <a href="http://petermatthewbauer.com/" target="_blank">Peter Matthew Bauer</a>. 
 
 <p>The development board used was a Texas Instruments (TI) <a href="http://beagleboard.org/BLACK" target="_blank">Beagle Bone Black</a> based on an AM335x 1GHz ARM® Cortex-A8 processer. For high-quality audio, a TI <a href="http://www.ti.com/product/pcm5102a/description" target="_blank">PCM5102A</a> DAC was used. The program leveraged the c++ library: <a href="http://www.juce.com/" target="_blank">JUCE</a> and Linux sound server: <a href="http://jackaudio.org/" target="_blank">JACK</a>.</p>
 <b> DEMO VIDEO: http://youtu.be/HCk0tZvfr2Q</b><br>
